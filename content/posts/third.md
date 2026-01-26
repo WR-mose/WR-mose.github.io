@@ -2,10 +2,15 @@
 date = '2026-01-24T22:04:18+08:00'
 draft = false
 title = '磁盘检查'
-[cover]
-image = "img/chkntfs.jpg"
-alt = "This is post image"
-caption = "This is the caption"
+#[cover]
+#image = "img/chkntfs.jpg"
+#alt = "This is post image"
+#caption = "This is the caption"
+
+cover_image = "img/chkntfs.jpg"
+cover_alt = "This is post image"
+cover_caption = "This is the caption"
+
 +++
 
 # 磁盘检查
