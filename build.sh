@@ -59,9 +59,9 @@ main() {
     git fetch --unshallow
   fi
 
-  # Build the site
+  # Build the site with no --minify
   echo "Building the site..."
-  hugo --gc --minify
+  hugo --gc
 
 }
 
