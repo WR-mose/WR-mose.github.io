@@ -2,4 +2,12 @@ public
 resources
 .hugo_build.lock
 learn.txt
-
+ask_probloms.json
+自动转义特殊字符.py
+原始.txt
+结果.json
+wrangler.json
+hugo.json
+build.json
+third.json
+hugo.yaml.bak
