@@ -1,0 +1,58 @@
+baseURL: ''
+languageCode: en-us
+theme: PaperMod
+title: This is my frist Hugo website
+disableThemeToggle: true
+
+# outputs 必须在最外层，不要缩进在 params 下
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 40
+
+params:
+  search:
+    enabled: true
+    placeholder: "What are you looking for?"
+    noResultsText: "No results found"
+    resultsText: "Search Results"
+    searchButtonText: "Search"
+    clearButtonText: "Clear"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  profileMode:
+    enabled: true
+    title: "<Title>"
+    subtitle: "Stay hungry, stay foolish."
+    imageUrl: "img/face.jpg"
+    imageTitle: "face"
+    imageWidth: 120
+    imageHeight: 120
+
+  socialIcons:
+    - name: "youtube"
+      url: "https://www.youtube.com/@%E8%83%A1%E5%B0%8F%E7%91%9E-s8e"
+    - name: "github"
+      url: "https://github.com/WR-mose"
+    - name: "bilibili"
+      url: "https://space.bilibili.com/23306942"
