@@ -1,3 +1,0 @@
-{
-  "构建日志信息": "\n                ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of \"/\" failed: \"/opt/buildhome/repo/themes/PaperMod/layouts/_default/baseof.html:9:8\": execute of template failed: template: list.html:9:8: executing \"list.html\" at <partial \"head.html\" .>: error calling partial: \"/opt/buildhome/repo/themes/PaperMod/layouts/partials/head.html:13:15\": execute of template failed: template: _partials/templates/opengraph.html:13:15: executing \"partials/templates/opengraph.html\" at <partial \"partials/templates/_funcs/get-page-images\" .>: error calling partial: partial \"partials/templates/_funcs/get-page-images\" not found\n            "
-}

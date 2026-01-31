@@ -1,4 +1,4 @@
-baseURL: ''
+baseURL: 'https://www.wrmose944.dpdns.org/' #上线之后别忘记修改了
 languageCode: en-us
 theme: PaperMod
 title: This is my frist Hugo website
@@ -42,7 +42,7 @@ params:
 
   profileMode:
     enabled: true
-    title: "<Title>"
+    title: "Title"
     subtitle: "Stay hungry, stay foolish."
     imageUrl: "img/face.jpg"
     imageTitle: "face"

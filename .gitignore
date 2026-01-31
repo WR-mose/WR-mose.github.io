@@ -11,3 +11,5 @@ hugo.json
 build.json
 third.json
 hugo.yaml.bak
+build.sh
+wrangler.toml

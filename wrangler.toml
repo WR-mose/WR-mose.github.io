@@ -6,4 +6,5 @@ command = "chmod a+x build.sh && ./build.sh"
 
 [assets]
 directory = "./public"
-not_found_handling = "404-page"
+not_found_handling = "404-page" # 确保 Hugo 生成了 404.html
+run_worker_first = false        # 优先寻找静态资源，找不到再执行 Worker 逻辑
