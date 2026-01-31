@@ -49,8 +49,14 @@
     "问题截图":{"workers-and-pages配置页面":["cloudflarepage1.png","cloudflarepage2.png"]}
 
 }
-page怎么使用自己的路由
-添加到记录上
 
+{
+    "现状":"使用cloudflare page成功构建并部署了网站,但是不能与自己的域名绑定",
+    "需求概述":"将自己的域名绑定到cloudflare page",
+    "以学习为目的的附加问题":["workers和pages在构建和部署上有什么区别？",
+                            "使用cloudflare page和workers托管网站，分别有哪些优缺点？"]
+
+    
+}
 
 ]
